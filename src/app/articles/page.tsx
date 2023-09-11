@@ -7,11 +7,9 @@ type Props = {
 
 function ArticlePage({ searchParams }: Props) {
 
-  if (searchParams && Object.entries(searchParams).length === 0 || !searchParams) {
+  if (!searchParams) {
     return notFound()
-  }  {
-
-  }
+  }  
 
  
 
