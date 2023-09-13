@@ -31,6 +31,8 @@ function Article({ article }: Props) {
             {/* Read More button */}
             <ReadMoreButton article={article}/>
         </div>
+
+        
     </article>
   )
 }
