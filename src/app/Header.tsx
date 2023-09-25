@@ -14,7 +14,7 @@ function Header() {
             <h1 className='font-serif text-xl md:text-3xl text-center'><span className='underline decoration-6 decoration-red-500'>Nariman&apos;s</span>{" "}news</h1>
         </Link>
 
-        <div className='flex justify-end'>
+        <div title='Dark/Light Mode' className='flex justify-end'>
             <DarkModeButton />
         </div>
         </div>
