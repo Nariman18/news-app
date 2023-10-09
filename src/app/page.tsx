@@ -7,8 +7,6 @@ import response from '../../response.json'
 export default async function Home() {
 
   const news: NewsResponse = (await fetchNews(categories.join(',')))
-
-  //set timeout for 3 seconds
   
   
   return (
